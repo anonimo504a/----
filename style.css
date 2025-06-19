@@ -56,7 +56,6 @@ body {
             position: fixed;
             top: 20px;
             right: 20px;
-            size: 10px;
     }
 
     .alto-contraste .modal-texto, .modal-title{
