@@ -41,22 +41,25 @@ body {
 
 
 }
-    .modal {
-            color: #28aa5a;
-        }
+   
    
 
         /* Estilo de alto contraste */
         .alto-contraste {
             background-color: #000000;
             color: #ffffff;
+         
         }
         /* Estilo do botão */
         .btn-alto-contraste {
             margin: 10px;
-            position: fixed right;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+    }
 
-
+    .btn-alto-contraste.modal {
+        color: #000000;
     }
 
   
