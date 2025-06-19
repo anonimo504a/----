@@ -46,18 +46,4 @@ body {
     color: black;
   }
 
-  /* Estilos para alto contraste */
-  @media (prefers-contrast: more) {
-    body {
-      background-color: black;
-      color: yellow;
-    }
-  }
-
-  /* Estilos para baixo contraste */
-  @media (prefers-contrast: less) {
-    body {
-       background-color: #f0f0f0;
-       color: #333;
-    }
   }
