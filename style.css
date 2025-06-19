@@ -39,12 +39,10 @@ body {
     color: var(--cor-principal);
     background-color: var(--cor-fundo);
 
+
 }
-   /* Estilo padrão */
-        body {
-            background-color: #ffffff;
-            color: #000000;
-        }
+   
+
         /* Estilo de alto contraste */
         .alto-contraste {
             background-color: #000000;
@@ -54,7 +52,10 @@ body {
         .btn-alto-contraste {
             margin: 10px;
             position: fixed right;
+
+        .modal {
+            color: #000000;
         }
-  
+    }
 
   
