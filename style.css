@@ -40,19 +40,20 @@ body {
     background-color: var(--cor-fundo);
 
 }
- @media (prefers-contrast: more) {
-    body {
-      background-color: black;
-      color: yellow;
-    }
-  }
+   /* Estilo padrão */
+        body {
+            background-color: #ffffff;
+            color: #000000;
+        }
+        /* Estilo de alto contraste */
+        .alto-contraste {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        /* Estilo do botão */
+        .btn-alto-contraste {
+            margin: 10px;
+        }
+  
 
-  /* Estilos para baixo contraste */
-  @media (prefers-contrast: less) {
-    body {
-       background-color: #f0f0f0;
-       color: #333;
-    }
-  }
-
-  }
+  
