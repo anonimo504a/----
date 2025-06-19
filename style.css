@@ -58,11 +58,11 @@ body {
             right: 20px;
     }
 
-    .btn-alto-contraste .modal-texto{
+    .alto-contraste .modal-texto{
         color:#000000
     }
     
-    .btn-alto-contraste .modal-title {
+    .alto-contraste .modal-title {
         color: #000000;
     }
 
