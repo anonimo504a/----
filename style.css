@@ -53,7 +53,7 @@ body {
         /* Estilo do botão */
         .btn-alto-contraste {
             margin: 10px;
-            position: right;
+            position: fixed right;
         }
   
 
