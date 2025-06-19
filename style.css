@@ -58,7 +58,7 @@ body {
             right: 20px;
     }
 
-    .btn-alto-contraste.modal {
+    .btn-alto-contraste.modal-body.modal-title {
         color: #000000;
     }
 
