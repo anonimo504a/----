@@ -11,6 +11,18 @@
 </head>
 
 <body>
+      <!-- Checkbox invisível para controlar o estado -->
+    <input type="checkbox" id="play-toggle">
+    
+    <!-- Botão de play que ativa o áudio -->
+    <label for="play-toggle" class="audio-minimal">
+        <i class="bi bi-play-fill"></i>
+    </label>
+    
+    <!-- Áudio com autoplay (pode não funcionar em todos navegadores) -->
+    <audio autoplay>
+        <source src="seu-audio.mp3" type="audio/mpeg">
+    </audio>
     <header class="container text-center">
         <img class=cabeçalho-imagem src="9.jpg" alt="imagem-campo">
          <button class="btn btn-warning btn-alto-contraste" onclick="document.body.classList.toggle('alto-contraste')">Ativar Alto Contraste</button>
