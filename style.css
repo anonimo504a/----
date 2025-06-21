@@ -7,6 +7,8 @@
     --cor-secundaria:  #67b165;
     --cor-destaque: #309b7e;
     --cor-fundo: #d8f6fab0;
+    --cor-fundo-alto-contraste: #000000;
+    --cor-texto-alto-contraste: #ffffff;
 }
 
 .cabeçalho-imagem {
@@ -39,59 +41,29 @@ body {
     color: var(--cor-principal);
     background-color: var(--cor-fundo);
 
-
 }
-   
-   
 
-        /* Estilo de alto contraste */
-        .alto-contraste {
-            background-color: #000000;
-            color: #ffffff;
+.texto-introdução {
+    font-size: 25px;;
+}
+
+
+
+.alto-contraste {
+     background-color: var(--cor-fundo-alto-contraste);
+     color: var(--cor-texto-alto-contraste);
          
-        }
-        /* Estilo do botão */
-        .btn-alto-contraste {
-            margin: 10px;
-            position: fixed;
-            top: 20px;
-            right: 20px;
-    }
+ }
 
-    .alto-contraste .modal-texto, .modal-title{
-        color:#000000
-    }
+.btn-alto-contraste {
+     margin: 10px;
+     position: fixed;
+     top: 20px;
+     right: 20px;
+ }
+
+.alto-contraste .modal-texto, .modal-title{
+        color: var(--cor-fundo-alto-contraste);
+ }
     
-     /* Botão de play puro CSS */
-        .audio-minimal {
-            position: fixed;
-            top: 10px;
-            left: 10px;
-            width: 40px;
-            height: 40px;
-            background: rgba(255, 255, 255, 0.9);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-            z-index: 1000;
-            border: none;
-        }
-        
-        /* Esconde o input checkbox */
-        #play-toggle { display: none; }
-        
-        /* Altera o ícone quando o áudio está tocando */
-        #play-toggle:checked ~ .audio-minimal i {
-            display: none;
-        }
-        #play-toggle:checked ~ .audio-minimal::after {
-            content: "\f28c"; /* Ícone de pause do Bootstrap Icons */
-            font-family: "bootstrap-icons";
-            color: #333;
-            font-size: 1.2rem;
-        }
 
-  
